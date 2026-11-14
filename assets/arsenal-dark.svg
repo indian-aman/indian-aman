@@ -1,62 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="1200" height="240" fill="none">
   <g transform="translate(8, 8)">
-    <rect x="0" y="0" width="288" height="224" rx="18" fill="#0B1528" fill-opacity="0.66" stroke="#38BDF8" stroke-opacity="0.30" stroke-width="1.4"/>
-    <rect x="22" y="-0.5" width="76" height="3" rx="1.5" fill="#38BDF8">
+    <rect x="0" y="0" width="288" height="224" rx="18" fill="#0D0F14" fill-opacity="0.90" stroke="#E4B45C" stroke-opacity="0.30" stroke-width="1.4"/>
+    <rect x="22" y="-0.5" width="76" height="3" rx="1.5" fill="#E4B45C">
       <animate attributeName="x" values="22;186;22" dur="6.4s" begin="0s" repeatCount="indefinite"/>
     </rect>
-    <circle cx="28" cy="34" r="4" fill="#38BDF8">
+    <circle cx="28" cy="34" r="4" fill="#E4B45C">
       <animate attributeName="opacity" values="0.35;1;0.35" dur="2s" begin="0s" repeatCount="indefinite"/>
     </circle>
-    <text x="40" y="38" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#38BDF8">01 // SILICON & CAD</text>
-    <text x="22" y="72" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#F8FAFC">• ANSI C99 (Zero-Heap Core)</text>
-    <text x="22" y="102" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• ESP32 · ESP-IDF · Arduino</text>
-    <text x="22" y="132" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• KiCad PCB & Analog AFE</text>
-    <text x="22" y="162" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• Blender 3D & Parametric CAD</text>
-    <text x="22" y="192" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• Hardware-in-the-Loop RF</text>
+    <text x="40" y="38" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#E4B45C">01 // SILICON &amp; CAD</text>
+    <text x="22" y="72" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#F8FAFC">• ANSI C99 &amp; Standalone WASM</text>
+    <text x="22" y="102" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• ESP32 · ESP-IDF · Arduino</text>
+    <text x="22" y="132" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• KiCad PCB &amp; Analog AFE</text>
+    <text x="22" y="162" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• Blender 3D &amp; Parametric CAD</text>
+    <text x="22" y="192" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• Hardware-in-the-Loop RF</text>
   </g>
   <g transform="translate(306, 8)">
-    <rect x="0" y="0" width="288" height="224" rx="18" fill="#0B1528" fill-opacity="0.66" stroke="#34D399" stroke-opacity="0.30" stroke-width="1.4"/>
-    <rect x="22" y="-0.5" width="76" height="3" rx="1.5" fill="#34D399">
+    <rect x="0" y="0" width="288" height="224" rx="18" fill="#0D0F14" fill-opacity="0.90" stroke="#F3D285" stroke-opacity="0.30" stroke-width="1.4"/>
+    <rect x="22" y="-0.5" width="76" height="3" rx="1.5" fill="#F3D285">
       <animate attributeName="x" values="22;186;22" dur="6.4s" begin="0.8s" repeatCount="indefinite"/>
     </rect>
-    <circle cx="28" cy="34" r="4" fill="#34D399">
+    <circle cx="28" cy="34" r="4" fill="#F3D285">
       <animate attributeName="opacity" values="0.35;1;0.35" dur="2s" begin="0.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="40" y="38" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#34D399">02 // PROTOCOLS & NET</text>
+    <text x="40" y="38" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#F3D285">02 // PROTOCOLS &amp; NET</text>
     <text x="22" y="72" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#F8FAFC">• Custom UDP Transport Engines</text>
-    <text x="22" y="102" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• Systematic GF(2^8) Cauchy FEC</text>
-    <text x="22" y="132" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• 1-RTT Packet-Train Pacing</text>
-    <text x="22" y="162" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• ChaCha20-Poly1305 AEAD</text>
-    <text x="22" y="192" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• RFC 5389 STUN & CGNAT</text>
+    <text x="22" y="102" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• Systematic GF(2^8) Cauchy FEC</text>
+    <text x="22" y="132" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• 1-RTT Packet-Train Pacing</text>
+    <text x="22" y="162" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• ChaCha20-Poly1305 AEAD</text>
+    <text x="22" y="192" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• RFC 5389 STUN &amp; CGNAT</text>
   </g>
   <g transform="translate(604, 8)">
-    <rect x="0" y="0" width="288" height="224" rx="18" fill="#0B1528" fill-opacity="0.66" stroke="#A5B4FC" stroke-opacity="0.30" stroke-width="1.4"/>
-    <rect x="22" y="-0.5" width="76" height="3" rx="1.5" fill="#A5B4FC">
+    <rect x="0" y="0" width="288" height="224" rx="18" fill="#0D0F14" fill-opacity="0.90" stroke="#E2E8F0" stroke-opacity="0.30" stroke-width="1.4"/>
+    <rect x="22" y="-0.5" width="76" height="3" rx="1.5" fill="#E2E8F0">
       <animate attributeName="x" values="22;186;22" dur="6.4s" begin="1.6s" repeatCount="indefinite"/>
     </rect>
-    <circle cx="28" cy="34" r="4" fill="#A5B4FC">
+    <circle cx="28" cy="34" r="4" fill="#E2E8F0">
       <animate attributeName="opacity" values="0.35;1;0.35" dur="2s" begin="1.6s" repeatCount="indefinite"/>
     </circle>
-    <text x="40" y="38" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#A5B4FC">03 // GPU & CONNECTOME</text>
+    <text x="40" y="38" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#E2E8F0">03 // GPU &amp; CONNECTOME</text>
     <text x="22" y="72" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#F8FAFC">• PyTorch · Custom CUDA · Triton</text>
-    <text x="22" y="102" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• Whole-CNS Spiking Networks</text>
-    <text x="22" y="132" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• MuJoCo / NeuroMechFly 3D</text>
-    <text x="22" y="162" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• Split-GAL4 Virtual Screens</text>
-    <text x="22" y="192" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• Plastic Memory Palaces</text>
+    <text x="22" y="102" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• Whole-CNS Spiking Networks</text>
+    <text x="22" y="132" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• MuJoCo / NeuroMechFly 3D</text>
+    <text x="22" y="162" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• Split-GAL4 Virtual Screens</text>
+    <text x="22" y="192" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• Plastic Memory Palaces</text>
   </g>
   <g transform="translate(902, 8)">
-    <rect x="0" y="0" width="288" height="224" rx="18" fill="#0B1528" fill-opacity="0.66" stroke="#FBBF24" stroke-opacity="0.30" stroke-width="1.4"/>
-    <rect x="22" y="-0.5" width="76" height="3" rx="1.5" fill="#FBBF24">
+    <rect x="0" y="0" width="288" height="224" rx="18" fill="#0D0F14" fill-opacity="0.90" stroke="#D4A24C" stroke-opacity="0.30" stroke-width="1.4"/>
+    <rect x="22" y="-0.5" width="76" height="3" rx="1.5" fill="#D4A24C">
       <animate attributeName="x" values="22;186;22" dur="6.4s" begin="2.4s" repeatCount="indefinite"/>
     </rect>
-    <circle cx="28" cy="34" r="4" fill="#FBBF24">
+    <circle cx="28" cy="34" r="4" fill="#D4A24C">
       <animate attributeName="opacity" values="0.35;1;0.35" dur="2s" begin="2.4s" repeatCount="indefinite"/>
     </circle>
-    <text x="40" y="38" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#FBBF24">04 // MARINE & ENV AI</text>
+    <text x="40" y="38" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#D4A24C">04 // MARINE &amp; ENV AI</text>
     <text x="22" y="72" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#F8FAFC">• ROS 2 Jazzy · MOOS-IvP · C++</text>
-    <text x="22" y="102" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• CUDA 512-Beam Sonar MBES</text>
-    <text x="22" y="132" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• YOLOv11m Maritime Vision</text>
-    <text x="22" y="162" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• NOAA BiLSTM Wave Physics</text>
-    <text x="22" y="192" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#CBD5E1">• Alphasense Gas Telemetry</text>
+    <text x="22" y="102" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• CUDA 512-Beam Sonar MBES</text>
+    <text x="22" y="132" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• YOLOv11m Maritime Vision</text>
+    <text x="22" y="162" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• NOAA BiLSTM Wave Physics</text>
+    <text x="22" y="192" font-family="'Segoe UI', Inter, sans-serif" font-size="13" font-weight="600" fill="#D5D9E2">• Alphasense Gas Telemetry</text>
   </g>
 </svg>

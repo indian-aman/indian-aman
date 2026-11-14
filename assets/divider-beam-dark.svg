@@ -1,21 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 44" width="1200" height="44" fill="none">
-  <line x1="60" y1="22" x2="1140" y2="22" stroke="#38BDF8" stroke-opacity="0.28" stroke-width="1.4" stroke-dasharray="6 6"/>
-  <!-- Left & Right Racing Comets -->
-  <rect y="20.5" width="76" height="3" rx="1.5" fill="#38BDF8">
+  <line x1="60" y1="22" x2="1140" y2="22" stroke="#E4B45C" stroke-opacity="0.28" stroke-width="1.4" stroke-dasharray="6 6"/>
+  <!-- Left &amp; Right Racing Comets -->
+  <rect y="20.5" width="76" height="3" rx="1.5" fill="#E4B45C">
     <animate attributeName="x" values="560;40" dur="3.2s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;0" dur="3.2s" repeatCount="indefinite"/>
   </rect>
-  <rect y="20.5" width="76" height="3" rx="1.5" fill="#34D399">
+  <rect y="20.5" width="76" height="3" rx="1.5" fill="#F3D285">
     <animate attributeName="x" values="564;1084" dur="3.2s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;0" dur="3.2s" repeatCount="indefinite"/>
   </rect>
   <!-- Central Rotating Diamond Reticle -->
   <g transform="translate(600, 22)">
     <g>
-      <rect x="-8" y="-8" width="16" height="16" rx="3" stroke="#34D399" stroke-width="1.6" fill="#060D1A" fill-opacity="0.74"/>
+      <rect x="-8" y="-8" width="16" height="16" rx="3" stroke="#F3D285" stroke-width="1.6" fill="#08090C" fill-opacity="0.92"/>
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
     </g>
-    <circle cx="0" cy="0" r="3" fill="#38BDF8">
+    <circle cx="0" cy="0" r="3" fill="#E4B45C">
       <animate attributeName="r" values="2;4.2;2" dur="1.8s" repeatCount="indefinite"/>
     </circle>
   </g>

@@ -1,58 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 585 304" width="585" height="304" fill="none">
-  <rect x="6" y="6" width="573" height="292" rx="20" fill="#0B1528" fill-opacity="0.66" stroke="#38BDF8" stroke-opacity="0.30" stroke-width="1.5"/>
-  <rect x="32" y="5.5" width="130" height="3" rx="1.5" fill="#38BDF8">
+  <rect x="6" y="6" width="573" height="292" rx="20" fill="#0D0F14" fill-opacity="0.90" stroke="#E4B45C" stroke-opacity="0.30" stroke-width="1.5"/>
+  <rect x="32" y="5.5" width="130" height="3" rx="1.5" fill="#E4B45C">
     <animate attributeName="x" values="32;410;32" dur="7s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="32" y="42" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#38BDF8">FLAGSHIP WIRELESS &amp; SATELLITE TRANSPORT</text>
-  <rect x="468" y="24" width="85" height="24" rx="12" fill="#0D1F38" fill-opacity="0.82" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="1"/>
-  <text x="510.5" y="40" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#38BDF8">v1.2.0</text>
+  <text x="32" y="42" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#E4B45C">CONNECTOME-COMPILED SILICON &amp; NLTP WIRE</text>
+  <rect x="468" y="24" width="85" height="24" rx="12" fill="#14171F" fill-opacity="0.82" stroke="#E4B45C" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="510.5" y="40" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#E4B45C">v3.0.0</text>
 
-  <text x="32" y="74" font-family="'Segoe UI', Inter, sans-serif" font-size="23" font-weight="800" fill="#F8FAFC">necklink  (NLTP)</text>
-  <text x="32" y="100" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#CBD5E1">Bidirectional UDP file &amp; telemetry engine with GF(2^8) Cauchy FEC,</text>
-  <text x="32" y="119" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#CBD5E1">1-RTT packet-train pacing, ChaCha20-Poly1305 &amp; 4G CGNAT traversal.</text>
+  <text x="32" y="74" font-family="'Segoe UI', Inter, sans-serif" font-size="23" font-weight="800" fill="#F8FAFC">necklink  (CNS + NLTP)</text>
+  <text x="32" y="100" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#D5D9E2">33,000 BANC v888 synaptic weights in 24 KB zero-float ANSI C99 &amp; WASM,</text>
+  <text x="32" y="119" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#D5D9E2">paired with NLTP v1.6 GF(2^8) Cauchy FEC &amp; ChaCha20-Poly1305 transport.</text>
 
   <!-- Live Animated FEC Packet-Train Telemetry Viewport -->
-  <rect x="32" y="136" width="521" height="114" rx="14" fill="#060D1A" fill-opacity="0.74" stroke="#1E3A5F" stroke-opacity="0.65" stroke-width="1"/>
+  <rect x="32" y="136" width="521" height="114" rx="14" fill="#08090C" fill-opacity="0.92" stroke="#2A2F3B" stroke-opacity="0.65" stroke-width="1"/>
 
   <!-- Sender -> Loss Zone -> Receiver Animation -->
-  <rect x="48" y="150" width="76" height="26" rx="7" fill="#0D1F38" stroke="#38BDF8" stroke-opacity="0.55"/>
-  <text x="86" y="167" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" font-weight="700" fill="#38BDF8">ESP32 TX</text>
+  <rect x="48" y="150" width="76" height="26" rx="7" fill="#14171F" stroke="#E4B45C" stroke-opacity="0.55"/>
+  <text x="86" y="167" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" font-weight="700" fill="#E4B45C">BANC CNS</text>
 
-  <line x1="126" y1="163" x2="452" y2="163" stroke="#38BDF8" stroke-opacity="0.28" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <line x1="126" y1="163" x2="452" y2="163" stroke="#E4B45C" stroke-opacity="0.28" stroke-width="1.5" stroke-dasharray="4 4"/>
 
   <!-- 20% Loss Hazard Box -->
-  <rect x="242" y="148" width="96" height="30" rx="8" stroke="#FB7185" stroke-opacity="0.55" stroke-dasharray="3 3"/>
-  <text x="290" y="167" text-anchor="middle" font-family="Consolas, monospace" font-size="10" font-weight="700" fill="#FB7185">20% RF LOSS</text>
+  <rect x="242" y="148" width="96" height="30" rx="8" stroke="#D87A68" stroke-opacity="0.55" stroke-dasharray="3 3"/>
+  <text x="290" y="167" text-anchor="middle" font-family="Consolas, monospace" font-size="10" font-weight="700" fill="#D87A68">35% RF LOSS</text>
 
   <!-- Streaming Data + FEC Healing Packets -->
-  <rect y="158" width="16" height="10" rx="3" fill="#38BDF8">
+  <rect y="158" width="16" height="10" rx="3" fill="#E4B45C">
     <animate attributeName="x" values="130;440" dur="2.1s" repeatCount="indefinite"/>
   </rect>
-  <rect y="158" width="16" height="10" rx="3" fill="#38BDF8">
+  <rect y="158" width="16" height="10" rx="3" fill="#E4B45C">
     <animate attributeName="x" values="130;440" dur="2.1s" begin="0.7s" repeatCount="indefinite"/>
   </rect>
   <!-- FEC Parity Packet turning Emerald after healing drop! -->
-  <rect y="158" width="20" height="10" rx="3" fill="#34D399">
+  <rect y="158" width="20" height="10" rx="3" fill="#F3D285">
     <animate attributeName="x" values="130;440" dur="2.1s" begin="1.4s" repeatCount="indefinite"/>
   </rect>
 
-  <rect x="454" y="150" width="84" height="26" rx="7" fill="#0D1F38" stroke="#34D399" stroke-opacity="0.6"/>
-  <text x="496" y="167" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" font-weight="700" fill="#34D399">FEC HEAL</text>
+  <rect x="454" y="150" width="84" height="26" rx="7" fill="#14171F" stroke="#F3D285" stroke-opacity="0.6"/>
+  <text x="496" y="167" text-anchor="middle" font-family="Consolas, monospace" font-size="10.5" font-weight="700" fill="#F3D285">24 KB C99</text>
 
   <!-- Benchmark Metrics -->
-  <text x="48" y="203" font-family="Consolas, monospace" font-size="11" fill="#94A3B8">1 MB @ 20% Loss:</text>
-  <rect x="174" y="193" width="136" height="11" rx="4" fill="#38BDF8">
+  <text x="48" y="203" font-family="Consolas, monospace" font-size="11" fill="#8E95A3">Zero-Float CNS:</text>
+  <rect x="174" y="193" width="136" height="11" rx="4" fill="#E4B45C">
     <animate attributeName="opacity" values="0.75;1;0.75" dur="2.4s" repeatCount="indefinite"/>
   </rect>
-  <text x="318" y="203" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#38BDF8">6.36s (vs TCP BBR 8.31s)</text>
+  <text x="318" y="203" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#E4B45C">24 KB C99 · 107.5 KB WASM</text>
 
-  <text x="48" y="229" font-family="Consolas, monospace" font-size="11" fill="#94A3B8">ESP32 60 KB Enc:</text>
-  <rect x="174" y="219" width="154" height="11" rx="4" fill="#34D399"/>
-  <text x="336" y="229" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#34D399">3.04 Mbps (5.5x &gt; ESP-NOW)</text>
+  <text x="48" y="229" font-family="Consolas, monospace" font-size="11" fill="#8E95A3">NLTP Cauchy FEC:</text>
+  <rect x="174" y="219" width="154" height="11" rx="4" fill="#F3D285"/>
+  <text x="336" y="229" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#F3D285">3.04 Mbps (5.5x &gt; ESP-NOW)</text>
 
   <!-- Footer -->
-  <circle cx="38" cy="274" r="5" fill="#3776AB"/>
-  <text x="49" y="278" font-family="'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#94A3B8">Python · Zero-Heap C99 · ESP32</text>
-  <text x="553" y="278" text-anchor="end" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#38BDF8">Enter Repo →</text>
+  <circle cx="38" cy="274" r="5" fill="#E4B45C"/>
+  <text x="49" y="278" font-family="'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#8E95A3">Python · Zero-Float C99 · WASM · ESP32</text>
+  <text x="553" y="278" text-anchor="end" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#E4B45C">Enter Repo →</text>
 </svg>

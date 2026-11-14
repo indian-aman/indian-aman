@@ -1,40 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 585 304" width="585" height="304" fill="none">
-  <rect x="6" y="6" width="573" height="292" rx="20" fill="#0B1528" fill-opacity="0.66" stroke="#38BDF8" stroke-opacity="0.30" stroke-width="1.5"/>
-  <rect x="32" y="5.5" width="130" height="3" rx="1.5" fill="#38BDF8">
+  <rect x="6" y="6" width="573" height="292" rx="20" fill="#0D0F14" fill-opacity="0.90" stroke="#E4B45C" stroke-opacity="0.30" stroke-width="1.5"/>
+  <rect x="32" y="5.5" width="130" height="3" rx="1.5" fill="#E4B45C">
     <animate attributeName="x" values="410;32;410" dur="6.8s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="32" y="42" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#38BDF8">AUTONOMOUS MARINE ROBOTICS &amp; BATHYMETRY</text>
-  <rect x="444" y="24" width="109" height="24" rx="12" fill="#0D1F38" fill-opacity="0.82" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="1"/>
-  <text x="498.5" y="40" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#38BDF8">ROS 2 Jazzy</text>
+  <text x="32" y="42" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#E4B45C">AUTONOMOUS MARINE ROBOTICS &amp; BATHYMETRY</text>
+  <rect x="444" y="24" width="109" height="24" rx="12" fill="#14171F" fill-opacity="0.82" stroke="#E4B45C" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="498.5" y="40" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#E4B45C">ROS 2 Jazzy</text>
 
   <text x="32" y="74" font-family="'Segoe UI', Inter, sans-serif" font-size="23" font-weight="800" fill="#F8FAFC">hydro-usv-ros2</text>
-  <text x="32" y="100" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#CBD5E1">3-tier autonomous hydrographic survey craft combining MOOS-IvP</text>
-  <text x="32" y="119" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#CBD5E1">mission autonomy, ROS 2 Nav2 EKF, and CUDA 512-beam sonar gridding.</text>
+  <text x="32" y="100" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#D5D9E2">3-tier autonomous hydrographic survey craft combining MOOS-IvP</text>
+  <text x="32" y="119" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#D5D9E2">mission autonomy, ROS 2 Nav2 EKF, and CUDA 512-beam sonar gridding.</text>
 
   <!-- Live Sweeping Multibeam Sonar (MBES) Viewport -->
-  <rect x="32" y="136" width="521" height="114" rx="14" fill="#060D1A" fill-opacity="0.74" stroke="#1E3A5F" stroke-opacity="0.65" stroke-width="1"/>
+  <rect x="32" y="136" width="521" height="114" rx="14" fill="#08090C" fill-opacity="0.92" stroke="#2A2F3B" stroke-opacity="0.65" stroke-width="1"/>
 
   <!-- Left Mini Sonar Cross-Section -->
-  <line x1="48" y1="158" x2="188" y2="158" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="48" y1="158" x2="188" y2="158" stroke="#E4B45C" stroke-opacity="0.45" stroke-width="1.5" stroke-dasharray="4 3"/>
   <!-- Seabed Terrain Profile -->
-  <path d="M 48 232 Q 82 212, 114 226 T 188 220" stroke="#34D399" stroke-width="2" fill="none"/>
+  <path d="M 48 232 Q 82 212, 114 226 T 188 220" stroke="#F3D285" stroke-width="2" fill="none"/>
   <!-- Sweeping 512-Beam MBES Fan from USV -->
   <g transform="translate(118, 158)">
     <g>
-      <polygon points="0,0 -34,68 34,68" fill="#38BDF8" fill-opacity="0.22" stroke="#38BDF8" stroke-opacity="0.55" stroke-width="1"/>
+      <polygon points="0,0 -34,68 34,68" fill="#E4B45C" fill-opacity="0.22" stroke="#E4B45C" stroke-opacity="0.55" stroke-width="1"/>
       <animateTransform attributeName="transform" type="rotate" values="-16;16;-16" dur="3.0s" repeatCount="indefinite"/>
     </g>
-    <rect x="-14" y="-6" width="28" height="8" rx="3" fill="#34D399"/>
+    <rect x="-14" y="-6" width="28" height="8" rx="3" fill="#F3D285"/>
   </g>
 
   <!-- Right Specs -->
-  <text x="210" y="172" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#38BDF8">▸ 10 ROS 2 Packages + Gazebo Sim</text>
-  <text x="210" y="198" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#34D399">▸ CUDA 512-Beam MBES Raytracing</text>
-  <text x="210" y="224" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#A5B4FC">▸ COLREGs Evasion + Live Web Sim</text>
+  <text x="210" y="172" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#E4B45C">▸ 10 ROS 2 Packages + Gazebo Sim</text>
+  <text x="210" y="198" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#F3D285">▸ CUDA 512-Beam MBES Raytracing</text>
+  <text x="210" y="224" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#E2E8F0">▸ COLREGs Evasion + Live Web Sim</text>
 
   <!-- Footer -->
-  <circle cx="38" cy="274" r="5" fill="#00599C"/>
-  <text x="49" y="278" font-family="'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#94A3B8">C++17 · ROS 2 Jazzy · CUDA · MOOS-IvP</text>
-  <text x="553" y="278" text-anchor="end" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#38BDF8">Enter Repo →</text>
+  <circle cx="38" cy="274" r="5" fill="#E4B45C"/>
+  <text x="49" y="278" font-family="'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#8E95A3">C++17 · ROS 2 Jazzy · CUDA · MOOS-IvP</text>
+  <text x="553" y="278" text-anchor="end" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#E4B45C">Enter Repo →</text>
 </svg>

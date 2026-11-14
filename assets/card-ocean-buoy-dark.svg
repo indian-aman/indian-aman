@@ -1,51 +1,51 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 585 304" width="585" height="304" fill="none">
-  <rect x="6" y="6" width="573" height="292" rx="20" fill="#0B1528" fill-opacity="0.66" stroke="#A5B4FC" stroke-opacity="0.30" stroke-width="1.5"/>
-  <rect x="32" y="5.5" width="130" height="3" rx="1.5" fill="#A5B4FC">
+  <rect x="6" y="6" width="573" height="292" rx="20" fill="#0D0F14" fill-opacity="0.90" stroke="#E2E8F0" stroke-opacity="0.30" stroke-width="1.5"/>
+  <rect x="32" y="5.5" width="130" height="3" rx="1.5" fill="#E2E8F0">
     <animate attributeName="x" values="32;410;32" dur="8.2s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="32" y="42" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#A5B4FC">MARINE COMPUTER VISION &amp; MET-OCEAN AI</text>
-  <rect x="444" y="24" width="109" height="24" rx="12" fill="#0D1F38" fill-opacity="0.82" stroke="#A5B4FC" stroke-opacity="0.5" stroke-width="1"/>
-  <text x="498.5" y="40" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#A5B4FC">NVIDIA H100</text>
+  <text x="32" y="42" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#E2E8F0">MARINE COMPUTER VISION &amp; MET-OCEAN AI</text>
+  <rect x="444" y="24" width="109" height="24" rx="12" fill="#14171F" fill-opacity="0.82" stroke="#E2E8F0" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="498.5" y="40" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#E2E8F0">NVIDIA H100</text>
 
   <text x="32" y="74" font-family="'Segoe UI', Inter, sans-serif" font-size="23" font-weight="800" fill="#F8FAFC">ocean-buoy-ai</text>
-  <text x="32" y="100" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#CBD5E1">Smart ocean buoy C2 center: NOAA 46-band wave physics, BiLSTM</text>
-  <text x="32" y="119" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#CBD5E1">sea-state forecasting, sonde anomaly detection &amp; 4-track YOLOv11m.</text>
+  <text x="32" y="100" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#D5D9E2">Smart ocean buoy C2 center: NOAA 46-band wave physics, BiLSTM</text>
+  <text x="32" y="119" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#D5D9E2">sea-state forecasting, sonde anomaly detection &amp; 4-track YOLOv11m.</text>
 
   <!-- Live Rotating Marine Radar + Spectral Wave Viewport -->
-  <rect x="32" y="136" width="521" height="114" rx="14" fill="#060D1A" fill-opacity="0.74" stroke="#1E3A5F" stroke-opacity="0.65" stroke-width="1"/>
+  <rect x="32" y="136" width="521" height="114" rx="14" fill="#08090C" fill-opacity="0.92" stroke="#2A2F3B" stroke-opacity="0.65" stroke-width="1"/>
 
   <!-- Left: Rotating Polar Radar Scope -->
   <g transform="translate(96, 193)">
-    <circle cx="0" cy="0" r="42" stroke="#34D399" stroke-opacity="0.35" stroke-width="1.2"/>
-    <circle cx="0" cy="0" r="24" stroke="#34D399" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="3 3"/>
-    <line x1="-42" y1="0" x2="42" y2="0" stroke="#34D399" stroke-opacity="0.2"/>
-    <line x1="0" y1="-42" x2="0" y2="42" stroke="#34D399" stroke-opacity="0.2"/>
+    <circle cx="0" cy="0" r="42" stroke="#F3D285" stroke-opacity="0.35" stroke-width="1.2"/>
+    <circle cx="0" cy="0" r="24" stroke="#F3D285" stroke-opacity="0.22" stroke-width="1" stroke-dasharray="3 3"/>
+    <line x1="-42" y1="0" x2="42" y2="0" stroke="#F3D285" stroke-opacity="0.2"/>
+    <line x1="0" y1="-42" x2="0" y2="42" stroke="#F3D285" stroke-opacity="0.2"/>
     <!-- Rotating Radar Beam -->
     <g>
-      <path d="M 0 0 L 0 -42 A 42 42 0 0 1 30 -30 Z" fill="#34D399" fill-opacity="0.28"/>
-      <line x1="0" y1="0" x2="0" y2="-42" stroke="#34D399" stroke-width="1.8"/>
+      <path d="M 0 0 L 0 -42 A 42 42 0 0 1 30 -30 Z" fill="#F3D285" fill-opacity="0.28"/>
+      <line x1="0" y1="0" x2="0" y2="-42" stroke="#F3D285" stroke-width="1.8"/>
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.4s" repeatCount="indefinite"/>
     </g>
     <!-- Radar Targets -->
-    <circle cx="16" cy="-18" r="3.2" fill="#38BDF8">
+    <circle cx="16" cy="-18" r="3.2" fill="#E4B45C">
       <animate attributeName="opacity" values="0.25;1;0.25" dur="1.7s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="-20" cy="14" r="3.2" fill="#FBBF24">
+    <circle cx="-20" cy="14" r="3.2" fill="#D4A24C">
       <animate attributeName="opacity" values="1;0.25;1" dur="2.1s" repeatCount="indefinite"/>
     </circle>
   </g>
 
   <!-- Right: Animated JONSWAP Wave + Metrics -->
   <path d="M 162 174 Q 192 150, 222 174 T 282 174 T 342 174 T 402 174 T 462 174 T 528 174"
-        stroke="#38BDF8" stroke-width="2.2" stroke-dasharray="10 5" fill="none">
+        stroke="#E4B45C" stroke-width="2.2" stroke-dasharray="10 5" fill="none">
     <animate attributeName="stroke-dashoffset" from="60" to="0" dur="2.0s" repeatCount="indefinite"/>
   </path>
-  <text x="162" y="205" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#A5B4FC">▸ YOLOv11m Buoys: 94.1% mAP@50 · SAR: 83.9%</text>
-  <text x="162" y="229" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#38BDF8">▸ NOAA 46050 JONSWAP r=0.9977 · Hs MAE 0.13m</text>
+  <text x="162" y="205" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#E2E8F0">▸ YOLOv11m Buoys: 94.1% mAP@50 · SAR: 83.9%</text>
+  <text x="162" y="229" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#E4B45C">▸ NOAA 46050 JONSWAP r=0.9977 · Hs MAE 0.13m</text>
 
   <!-- Footer -->
-  <circle cx="38" cy="274" r="5" fill="#F9AB00"/>
-  <text x="49" y="278" font-family="'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#94A3B8">PyTorch · YOLOv11m · FastAPI · H100</text>
-  <text x="553" y="278" text-anchor="end" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#A5B4FC">Enter Repo →</text>
+  <circle cx="38" cy="274" r="5" fill="#D4A24C"/>
+  <text x="49" y="278" font-family="'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#8E95A3">PyTorch · YOLOv11m · FastAPI · H100</text>
+  <text x="553" y="278" text-anchor="end" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#E2E8F0">Enter Repo →</text>
 </svg>

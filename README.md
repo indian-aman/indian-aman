@@ -2,20 +2,20 @@
   <a href="https://github.com/indian-aman"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg" /><img alt="Amandeep Singh Bains (@indian-aman) — Systems Architect, Marine Autonomy & Whole-Brain GPU" src="assets/hero-dark.svg" width="100%" /></picture></a>
 
   <p>
-    <a href="https://github.com/indian-aman/necklink/releases/tag/v1.2.0"><img src="https://img.shields.io/badge/NLTP_v1.2.0-Python_%C2%B7_C99_%C2%B7_ESP32-0284C7?style=for-the-badge&logo=espressif&logoColor=white" alt="NLTP v1.2.0" /></a>
-    <a href="https://indian-aman.github.io/moos-ros2-usv-sim/"><img src="https://img.shields.io/badge/Live_Sim-Mariner_USV_60_FPS-0D9488?style=for-the-badge&logo=ros&logoColor=white" alt="Mariner USV Live Sim" /></a>
-    <a href="https://indian-aman.github.io/airwatch-aqms/"><img src="https://img.shields.io/badge/Live_Telemetry-AirWatch_AQMS-059669?style=for-the-badge&logo=fastapi&logoColor=white" alt="AirWatch AQMS Live" /></a>
-    <a href="https://doi.org/10.5281/zenodo.23881805"><img src="https://img.shields.io/badge/Zenodo_DOI-10.5281%2Fzenodo.23881805-4F46E5?style=for-the-badge&logo=zenodo&logoColor=white" alt="Zenodo DOI 10.5281/zenodo.23881805" /></a>
-    <a href="https://orcid.org/0009-0009-0689-2920"><img src="https://img.shields.io/badge/ORCID-0009--0009--0689--2920-65A30D?style=for-the-badge&logo=orcid&logoColor=white" alt="ORCID 0009-0009-0689-2920" /></a>
+    <a href="https://indian-aman.github.io/necklink/"><img src="https://img.shields.io/badge/NeckLink_v3.0.0-24_KB_CNS_%C2%B7_WASM_%C2%B7_NLTP-D4A24C?style=for-the-badge&labelColor=111318&logo=webassembly&logoColor=F8FAFC" alt="NeckLink v3.0.0 Live WASM Sim" /></a>
+    <a href="https://indian-aman.github.io/moos-ros2-usv-sim/"><img src="https://img.shields.io/badge/Live_Sim-Mariner_USV_60_FPS-C89236?style=for-the-badge&labelColor=111318&logo=ros&logoColor=F8FAFC" alt="Mariner USV Live Sim" /></a>
+    <a href="https://indian-aman.github.io/airwatch-aqms/"><img src="https://img.shields.io/badge/Live_Telemetry-AirWatch_AQMS-C89236?style=for-the-badge&labelColor=111318&logo=fastapi&logoColor=F8FAFC" alt="AirWatch AQMS Live" /></a>
+    <a href="https://doi.org/10.5281/zenodo.23881805"><img src="https://img.shields.io/badge/Zenodo_DOI-10.5281%2Fzenodo.23881805-4E5666?style=for-the-badge&labelColor=111318&logo=zenodo&logoColor=F8FAFC" alt="Zenodo DOI 10.5281/zenodo.23881805" /></a>
+    <a href="https://orcid.org/0009-0009-0689-2920"><img src="https://img.shields.io/badge/ORCID-0009--0009--0689--2920-4E5666?style=for-the-badge&labelColor=111318&logo=orcid&logoColor=F8FAFC" alt="ORCID 0009-0009-0689-2920" /></a>
   </p>
 
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-beam-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/divider-beam-light.svg" /><img alt="" src="assets/divider-beam-dark.svg" width="100%" /></picture>
 </div>
 
-<h3 align="center">⚡ Flagship Systems, Ocean Autonomy &amp; Whole-Brain Research</h3>
+<h3 align="center">◈ Flagship Systems, Ocean Autonomy &amp; Whole-Brain Research</h3>
 
 <p align="center">
-  <a href="https://github.com/indian-aman/necklink"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-necklink-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/card-necklink-light.svg" /><img alt="necklink (NLTP v1.2.0)" src="assets/card-necklink-dark.svg" width="49%" /></picture></a>
+  <a href="https://github.com/indian-aman/necklink"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-necklink-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/card-necklink-light.svg" /><img alt="necklink (v3.0.0 — 24 KB C99 CNS, WASM & NLTP v1.6.0)" src="assets/card-necklink-dark.svg" width="49%" /></picture></a>
   <a href="https://github.com/indian-aman/drosophila-whole-cns-specificity"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-connectome-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/card-connectome-light.svg" /><img alt="drosophila-whole-cns-specificity" src="assets/card-connectome-dark.svg" width="49%" /></picture></a>
 </p>
 <p align="center">
@@ -27,7 +27,7 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-beam-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/divider-beam-light.svg" /><img alt="" src="assets/divider-beam-dark.svg" width="100%" /></picture>
 </div>
 
-<h3 align="center">🌊 Three Worlds, One Unified Stack — Sea · Silicon · Connectome</h3>
+<h3 align="center">◈ Three Worlds, One Unified Stack — Sea · Silicon · Connectome</h3>
 
 <div align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/world-diorama-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/world-diorama-light.svg" /><img alt="Autonomous Ocean Fleet, Sub-ms Silicon & Spiking Connectome Architecture" src="assets/world-diorama-dark.svg" width="100%" /></picture>
@@ -35,7 +35,7 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-beam-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/divider-beam-light.svg" /><img alt="" src="assets/divider-beam-dark.svg" width="100%" /></picture>
 </div>
 
-<h3 align="center">🛰️ Engineering Arsenal</h3>
+<h3 align="center">◈ Engineering Arsenal</h3>
 
 <div align="center">
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/arsenal-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/arsenal-light.svg" /><img alt="Engineering Arsenal — Silicon & CAD, Protocols & Net, GPU & Connectome, Marine & Env AI" src="assets/arsenal-dark.svg" width="100%" /></picture>
@@ -43,11 +43,11 @@
   <picture><source media="(prefers-color-scheme: dark)" srcset="assets/divider-beam-dark.svg" /><source media="(prefers-color-scheme: light)" srcset="assets/divider-beam-light.svg" /><img alt="" src="assets/divider-beam-dark.svg" width="100%" /></picture>
 </div>
 
-<h3 align="center">🧭 Complete Mission Index &amp; Live Browser Portals</h3>
+<h3 align="center">◈ Complete Mission Index &amp; Live Browser Portals</h3>
 
 | System / Expedition | Capabilities & Verified Benchmarks | Stack & Live Portal |
 | :--- | :--- | :--- |
-| **[necklink](https://github.com/indian-aman/necklink)** | Bidirectional loss-resilient UDP file & telemetry transport (`GF(2^8)` Cauchy FEC, 1-RTT packet-train pacing, `ChaCha20-Poly1305`, 4G CGNAT traversal; `5.5×` faster than default ESP-NOW) | `Python` · `ANSI C99` · `ESP32` · [**Release `v1.2.0`**](https://github.com/indian-aman/necklink/releases/tag/v1.2.0) |
+| **[necklink](https://github.com/indian-aman/necklink)** | Connectome-compiled *Drosophila* `BANC v888` edge-autonomy reflex suite (`33,000` synaptic weights in `24 KB` zero-float ANSI C99 & `107.5 KB` WASM) + `NLTP v1.6.0` `GF(2^8)` Cauchy FEC & `ChaCha20-Poly1305` transport (`5.5×` > ESP-NOW) | `Python` · `ANSI C99` · `WASM` · `ESP32` · [**Launch WASM Sim ↗**](https://indian-aman.github.io/necklink/) · [**`v3.0.0`**](https://github.com/indian-aman/necklink/releases/tag/v3.0.0) |
 | **[drosophila-whole-cns-specificity](https://github.com/indian-aman/drosophila-whole-cns-specificity)** | Whole-brain + VNC spiking connectome engine across MaleCNS v1.0 & Female BANC v888, `K=486` virtual Split-GAL4 screens & NeuroMechFly v2 3D physics | `PyTorch` · `CUDA / Triton` · `MuJoCo` · [**Zenodo DOI**](https://doi.org/10.5281/zenodo.23881805) |
 | **[malecns-superfly-lab](https://github.com/indian-aman/malecns-superfly-lab)** | Interactive 3D Connectome Observatory, 10-Brain Super-Fly (`1.67M` spiking neurons, `12.5M` plastic synapses) & Allocentric Cognitive Map | `FastAPI` · `NumPy / SciPy` · `WebGL` |
 | **[ocean-buoy-ai](https://github.com/indian-aman/ocean-buoy-ai)** | Smart Ocean Buoy AI Command Center: NOAA `46050` spectral wave physics (`r = 0.9977`), BiLSTM+Attention sea-state forecasting, sonde anomaly detection & 4-track `YOLOv11m` vision | `PyTorch` · `YOLOv11m` · `FastAPI` · `H100` |

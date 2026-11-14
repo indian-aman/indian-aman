@@ -3,61 +3,61 @@
     <path id="axonA" d="M 68 172 L 154 156 L 244 176 L 336 160 L 424 192" fill="none"/>
     <path id="axonB" d="M 68 214 L 154 202 L 244 176 L 336 210 L 424 192" fill="none"/>
   </defs>
-  <rect x="6" y="6" width="573" height="292" rx="20" fill="#0B1528" fill-opacity="0.66" stroke="#34D399" stroke-opacity="0.30" stroke-width="1.5"/>
-  <rect x="32" y="5.5" width="130" height="3" rx="1.5" fill="#34D399">
+  <rect x="6" y="6" width="573" height="292" rx="20" fill="#0D0F14" fill-opacity="0.90" stroke="#F3D285" stroke-opacity="0.30" stroke-width="1.5"/>
+  <rect x="32" y="5.5" width="130" height="3" rx="1.5" fill="#F3D285">
     <animate attributeName="x" values="410;32;410" dur="7.5s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="32" y="42" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#34D399">WHOLE-BRAIN GPU SIMULATION &amp; PREPRINT</text>
-  <rect x="444" y="24" width="109" height="24" rx="12" fill="#0D1F38" fill-opacity="0.82" stroke="#34D399" stroke-opacity="0.5" stroke-width="1"/>
-  <text x="498.5" y="40" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#34D399">Zenodo DOI</text>
+  <text x="32" y="42" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#F3D285">WHOLE-BRAIN GPU SIMULATION &amp; PREPRINT</text>
+  <rect x="444" y="24" width="109" height="24" rx="12" fill="#14171F" fill-opacity="0.82" stroke="#F3D285" stroke-opacity="0.5" stroke-width="1"/>
+  <text x="498.5" y="40" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" font-weight="700" fill="#F3D285">Zenodo DOI</text>
 
   <text x="32" y="74" font-family="'Segoe UI', Inter, sans-serif" font-size="21.5" font-weight="800" fill="#F8FAFC">drosophila-whole-cns-specificity</text>
-  <text x="32" y="100" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#CBD5E1">Spiking connectome engine across MaleCNS v1.0 &amp; Female BANC v888</text>
-  <text x="32" y="119" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#CBD5E1">with K=486 Split-GAL4 GPU screens &amp; 3D NeuroMechFly v2 embodiment.</text>
+  <text x="32" y="100" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#D5D9E2">Spiking connectome engine across MaleCNS v1.0 &amp; Female BANC v888</text>
+  <text x="32" y="119" font-family="'Segoe UI', Inter, sans-serif" font-size="13.5" fill="#D5D9E2">with K=486 Split-GAL4 GPU screens &amp; 3D NeuroMechFly v2 embodiment.</text>
 
   <!-- Live Spiking Connectome Cascade Viewport -->
-  <rect x="32" y="136" width="521" height="114" rx="14" fill="#060D1A" fill-opacity="0.74" stroke="#1E3A5F" stroke-opacity="0.65" stroke-width="1"/>
+  <rect x="32" y="136" width="521" height="114" rx="14" fill="#08090C" fill-opacity="0.92" stroke="#2A2F3B" stroke-opacity="0.65" stroke-width="1"/>
 
-  <use href="#axonA" stroke="#38BDF8" stroke-opacity="0.32" stroke-width="1.4"/>
-  <use href="#axonB" stroke="#34D399" stroke-opacity="0.32" stroke-width="1.4"/>
-  <line x1="154" y1="156" x2="154" y2="202" stroke="#A5B4FC" stroke-opacity="0.3" stroke-width="1.2"/>
-  <line x1="336" y1="160" x2="336" y2="210" stroke="#A5B4FC" stroke-opacity="0.3" stroke-width="1.2"/>
+  <use href="#axonA" stroke="#E4B45C" stroke-opacity="0.32" stroke-width="1.4"/>
+  <use href="#axonB" stroke="#F3D285" stroke-opacity="0.32" stroke-width="1.4"/>
+  <line x1="154" y1="156" x2="154" y2="202" stroke="#E2E8F0" stroke-opacity="0.3" stroke-width="1.2"/>
+  <line x1="336" y1="160" x2="336" y2="210" stroke="#E2E8F0" stroke-opacity="0.3" stroke-width="1.2"/>
 
   <!-- Travelling Action Potentials -->
-  <circle r="4" fill="#38BDF8">
+  <circle r="4" fill="#E4B45C">
     <animateMotion dur="2.2s" repeatCount="indefinite"><mpath href="#axonA"/></animateMotion>
   </circle>
-  <circle r="4" fill="#34D399">
+  <circle r="4" fill="#F3D285">
     <animateMotion dur="2.6s" begin="0.8s" repeatCount="indefinite"><mpath href="#axonB"/></animateMotion>
   </circle>
 
   <!-- Neural Population Nodes -->
-  <circle cx="68" cy="172" r="6" fill="#38BDF8"/>
-  <circle cx="68" cy="214" r="6" fill="#34D399"/>
-  <circle cx="154" cy="156" r="6.5" fill="#38BDF8"/>
-  <circle cx="154" cy="202" r="6.5" fill="#A5B4FC"/>
-  <circle cx="244" cy="176" r="8" fill="#34D399">
+  <circle cx="68" cy="172" r="6" fill="#E4B45C"/>
+  <circle cx="68" cy="214" r="6" fill="#F3D285"/>
+  <circle cx="154" cy="156" r="6.5" fill="#E4B45C"/>
+  <circle cx="154" cy="202" r="6.5" fill="#E2E8F0"/>
+  <circle cx="244" cy="176" r="8" fill="#F3D285">
     <animate attributeName="r" values="6.5;9.5;6.5" dur="1.9s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="336" cy="160" r="6.5" fill="#38BDF8"/>
-  <circle cx="336" cy="210" r="6.5" fill="#34D399"/>
-  <circle cx="424" cy="192" r="7.5" fill="#A5B4FC">
+  <circle cx="336" cy="160" r="6.5" fill="#E4B45C"/>
+  <circle cx="336" cy="210" r="6.5" fill="#F3D285"/>
+  <circle cx="424" cy="192" r="7.5" fill="#E2E8F0">
     <animate attributeName="r" values="6;9;6" dur="2.1s" repeatCount="indefinite"/>
   </circle>
 
-  <text x="58" y="238" font-family="Consolas, monospace" font-size="10" fill="#94A3B8">EPG / ALPN</text>
-  <text x="218" y="238" font-family="Consolas, monospace" font-size="10" fill="#34D399">PFL3 / DN</text>
-  <text x="374" y="238" font-family="Consolas, monospace" font-size="10" fill="#A5B4FC">VNC 3D GAIT</text>
+  <text x="58" y="238" font-family="Consolas, monospace" font-size="10" fill="#8E95A3">EPG / ALPN</text>
+  <text x="218" y="238" font-family="Consolas, monospace" font-size="10" fill="#F3D285">PFL3 / DN</text>
+  <text x="374" y="238" font-family="Consolas, monospace" font-size="10" fill="#E2E8F0">VNC 3D GAIT</text>
 
   <!-- Right KPI Box inside Viewport -->
-  <rect x="454" y="150" width="86" height="84" rx="10" fill="#0D1F38" fill-opacity="0.82" stroke="#34D399" stroke-opacity="0.4"/>
-  <text x="497" y="174" text-anchor="middle" font-family="Consolas, monospace" font-size="14" font-weight="800" fill="#34D399">K=486</text>
-  <text x="497" y="192" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#CBD5E1">GPU SCREEN</text>
-  <text x="497" y="216" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#38BDF8">325k CNS</text>
+  <rect x="454" y="150" width="86" height="84" rx="10" fill="#14171F" fill-opacity="0.82" stroke="#F3D285" stroke-opacity="0.4"/>
+  <text x="497" y="174" text-anchor="middle" font-family="Consolas, monospace" font-size="14" font-weight="800" fill="#F3D285">K=486</text>
+  <text x="497" y="192" text-anchor="middle" font-family="Consolas, monospace" font-size="9.5" fill="#D5D9E2">GPU SCREEN</text>
+  <text x="497" y="216" text-anchor="middle" font-family="Consolas, monospace" font-size="11" font-weight="700" fill="#E4B45C">325k CNS</text>
 
   <!-- Footer -->
-  <circle cx="38" cy="274" r="5" fill="#EE4C2C"/>
-  <text x="49" y="278" font-family="'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#94A3B8">PyTorch · CUDA / Triton · MuJoCo 3D</text>
-  <text x="553" y="278" text-anchor="end" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#34D399">Enter Repo →</text>
+  <circle cx="38" cy="274" r="5" fill="#F3D285"/>
+  <text x="49" y="278" font-family="'Segoe UI', Inter, sans-serif" font-size="12.5" font-weight="600" fill="#8E95A3">PyTorch · CUDA / Triton · MuJoCo 3D</text>
+  <text x="553" y="278" text-anchor="end" font-family="Consolas, monospace" font-size="12" font-weight="700" fill="#F3D285">Enter Repo →</text>
 </svg>
